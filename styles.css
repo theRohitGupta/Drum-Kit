@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: "Bebas Neue", cursive;
+}
+
+/* -----------------PRELOADER-------------- */
+#PRELOADER{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+}
+#PRELOADER .loader-img{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    height: 300px;
+}
+.hide{
+    z-index: 100;
+    top: 5%;
+    left: 33%;
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+#lin-grad{
+    background-image: linear-gradient(135deg, white, lightgreen, darkblue);
+    height: 100vh;
+}
+.navbar{
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#NAVIGATION-BAR .nav-link{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.drum-kit-img{
+    width: 8rem;
+    padding-bottom: 4%;
+}
+.header-text{
+    font-size: 7rem;
+    padding-top: 1%;
+    color: #413F42;
+    font-family: 'Rubik Glitch', cursive;
+    position: absolute;
+    left: 20%;
+}
+
+.header-text:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+/* ----------------------- DRUM SECTION------------------ */
+#DRUM-SECTION{
+    position: relative;
+    top: 35%;
+}
+.drum-container{
+    text-align:center;
+}
+.drum{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    background-color: white;
+    border: 10px solid rgba(216, 216, 216, 0.88) ;
+    box-shadow: 10px 10px #413F42;
+    border-radius: 25px;
+    font-size: 3rem;
+}
+.w{ 
+    background: url(images/tom3.png);
+    background-size: cover;
+}
+.a{
+    background: url(images/kick.png);
+}
+.s{
+    background: white;
+    background-image: url(images/tom1.png);
+}
+.d{
+    background: url(images/snare.png);
+}
+.j{
+    background: white;
+    background-image: url(images/tom2.png);
+}
+.k{
+    background: url(images/crash.png);
+}
+.l{
+    background: url(images/tom4.png);
+    background-size: cover;
+}
+
+.drum:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 5px 5px #413F42;
+}
+
+/* ----------FOOTER-------------- */
+#FOOTER{
+    position: relative;
+    top: 55%;
+}
+
+/*------------------------ MODAL-------------------- */
+.modal-title{
+    text-align: center;
+    font-size:2rem;
+    width: 100%;
+}
+.btn{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.modal-title{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size:2rem;
+    width: 100%;
+}
+.modal-text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+.modal-footer-btn{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    font-size: 1.5rem;
+}
